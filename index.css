@@ -494,14 +494,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box video {
   width: 100%;
-  max-height: 900px;
+  max-height: 700px;
   border-radius: 8px;
   object-fit: cover;
 }
 
 .work__image-box img {
   width: 100%;
-  max-height: 900px;
+  max-height: 700px;
   border-radius: 8px;
 }
 
