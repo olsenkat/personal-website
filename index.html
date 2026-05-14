@@ -199,14 +199,327 @@
 
 
 
-    <!-- ***** Personal Projects ***** -->
+    <!-- ***** Projects and Competitions ***** -->
 
     <section class="work" id="work">
       <div class="row">
-        <h2>Work Experience</h2>
+        <h2>Projects and Competitions</h2>
         <div class="work__boxes">
 
-           <!-- Antweight Battle Bot -->
+
+          <!-- APES Capstone Project -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Automated Pit Exploration System (APES) – INL Capstone Project</h3>
+
+              <p>
+                Collaborated in a 5-person capstone team under the guidance of 
+                Idaho National Laboratory (INL) to develop a robotic visualization 
+                and control system integrating Unity and ROS2.
+                The project focused on creating a scalable interface capable of 
+                communicating with and visualizing multiple robotic platforms in 
+                real time.
+              </p>
+
+              <p>
+                Developed a bidirectional data pipeline between Unity and ROS2, 
+                enabling control commands sent from Unity to move physical robots 
+                while simultaneously receiving live positional data for visualization 
+                within the Unity environment.
+                Integrated support for robotic crawler and arm systems, as well as live 
+                camera visualization using a ZED camera feed.
+              </p>
+
+              <p>
+                The project required collaboration between BYU Capstone, Idaho 
+                National Laboratory, and Florida International University, which 
+                developed the robotic arm platform.
+                Following project completion, INL began adapting the Unity–ROS2 
+                pipeline for use with additional robotic systems, including humanoid 
+                robotics platforms currently in development.
+              </p>
+
+              <p>
+                Our team presented the final project at both the Waste Management 
+                Conference and the BYU Capstone Design Fair.
+                The project provided extensive experience in systems engineering, 
+                robotics integration, cross-team collaboration, and large-scale 
+                software/hardware system design.
+              </p>
+
+              <ul class="work__list">
+                <li>ROS2</li>
+                <li>Unity</li>
+                <li>Systems Engineering</li>
+                <li>Robotics Integration</li>
+                <li>Real-Time Data Pipelines</li>
+                <li>ZED Camera Integration</li>
+                <li>Team-Based Development</li>
+              </ul>
+
+              <div class="work__image-box">
+                <a href="./documents/capstone-poster.pdf" target="_blank">
+                  <img src="./images/capstone-poster-preview.png"
+                      class="work__image"
+                      alt="APES Project Poster Preview" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Junior Core Laser Tag System -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Junior Core Laser Tag System Project</h3>
+
+              <p>
+                Collaborated in a 4-person engineering team to design and develop 
+                a fully functional laser tag system over the course of a year-long 
+                junior core project.
+                The project involved both hardware and software development, 
+                including custom PCB design, signal analysis, embedded programming, 
+                and system integration.
+              </p>
+
+              <p>
+                During the first semester, designed and tested laser communication 
+                circuitry using breadboards, oscilloscopes, and LTspice simulations 
+                before creating custom PCBs in Altium.
+                Designed receiver and transmitter systems capable of detecting laser 
+                frequencies and distinguishing between allied and opposing teams.
+              </p>
+
+              <p>
+                During the second semester, integrated the hardware into complete 
+                laser tag guns and developed the embedded logic controlling gameplay 
+                behavior.
+                Implemented frequency-based team identification logic to prevent 
+                friendly fire while allowing interaction with opposing teams.
+                The final project included a custom “infection” game mode demonstrated 
+                in a team-produced video presentation.
+              </p>
+
+              <ul class="work__list">
+                <li>PCB Design (Altium)</li>
+                <li>Embedded Programming</li>
+                <li>Signal Processing</li>
+                <li>Oscilloscopes</li>
+                <li>LTspice</li>
+                <li>Circuit Design & Testing</li>
+                <li>Hardware Debugging</li>
+              </ul>
+
+              <div class="work__links">
+                <!-- YouTube video placeholder -->
+                <a href="https://youtu.be/Qq6qvXOfEf0" target="_blank" class="link__text">
+                  Watch Infection Project Demo <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <!-- Images of the laser tag project -->
+              <!-- <img src="./images/laser-tag-project.png" class="work__image" alt="Laser Tag Gun Project" /> -->
+              <img src="./images/laser-tag-breadboard.jpeg" class="work__image" alt="Laser Tag PCB Project" />
+            </div>
+          </div>
+
+          <!-- PYNQ Space Invaders System -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>PYNQ Space Invaders System Project</h3>
+
+              <p>
+                Developed a Space Invaders game within a Linux-based 
+                embedded systems environment using a PYNQ FPGA 
+                development board.
+                The project combined hardware design, kernel driver 
+                development, low-level systems programming, and game 
+                logic implementation.
+              </p>
+
+              <p>
+                Independently developed multiple Linux user-space and 
+                kernel-space drivers, including support for buttons, 
+                switches, interrupts, DMA operations, and audio playback.
+                Created a configurable Programmable Interrupt Timer (PIT) 
+                in SystemVerilog and implemented a corresponding Linux kernel 
+                driver with sysfs interfaces allowing runtime configuration 
+                of interrupt behavior and game speed.
+              </p>
+
+              <p>
+                Designed and implemented an audio codec driver in the Linux 
+                kernel to configure audio hardware and stream sound effects 
+                to the game engine.
+                Additionally developed a DMA-based sprite transfer system in 
+                user space to reduce processor load and improve graphical 
+                efficiency.
+              </p>
+
+              <p>
+                Collaborated in a team of three on the gameplay systems and 
+                rendering logic, implementing classic Space Invaders mechanics 
+                including UFO bonus scoring, bunker degradation, explosions, 
+                enemy scoring, and dynamic life management.
+              </p>
+
+              <ul class="work__list">
+                <li>Linux Embedded Systems</li>
+                <li>SystemVerilog</li>
+                <li>Kernel Driver Development</li>
+                <li>DMA Programming</li>
+                <li>Interrupt Handling</li>
+                <li>PYNQ / FPGA</li>
+                <li>Audio Codec Integration</li>
+                <li>C / C++</li>
+              </ul>
+
+              <div class="work__image-box">
+                <video class="work__image" controls>
+                  <source src="./videos/space-invaders.mp4" type="video/mp4">
+                  Space Invaders Gameplay.
+                </video>
+              </div>
+          </div>
+
+
+          <!-- Tweeter Social Media Platform -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Tweeter Social Media Platform</h3>
+
+              <p>
+                Developed a full-stack social media platform inspired 
+                by Twitter for a school software engineering project.
+                The application supported scalable user interactions 
+                including account creation, authentication, 
+                following/unfollowing users, posting stories, and dynamically 
+                generating user feeds.
+              </p>
+
+              <p>
+                Built the frontend using React and TypeScript following an 
+                MVP (Model-View-Presenter) architecture with structured models, 
+                services, and shared types.
+                Implemented both personal story views and follower feed generation 
+                with real-time user notifications for actions such as posting 
+                content and following users.
+              </p>
+
+              <p>
+                Developed a scalable AWS-based backend using Lambda functions, 
+                DynamoDB, S3, and message queues.
+                Implemented serverless handlers and queue-based propagation 
+                systems to distribute posts efficiently across follower feeds 
+                while supporting large-scale user interaction.
+              </p>
+
+              <p>
+                Used AWS SAM for deployment and infrastructure management.
+                While the cloud infrastructure has since been disabled to 
+                avoid ongoing hosting costs, the system was fully functional 
+                and designed to support large user loads.
+              </p>
+
+              <ul class="work__list">
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>AWS Lambda</li>
+                <li>DynamoDB</li>
+                <li>AWS S3</li>
+                <li>Serverless Architecture</li>
+                <li>Queue-Based Processing</li>
+                <li>MVP Design Pattern</li>
+              </ul>
+
+              <div class="work__links">
+                <!-- repo -->
+                <a href="https://github.com/olsenkat/tweeter-cs340" target="_blank" class="link__text">
+                  View on GitHub <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <!-- Screenshots -->
+              <img src="./images/login-screen-tweeter.png"
+                  class="work__image"
+                  alt="Tweeter Social Media Platform Login Screenshot" />
+              <img src="./images/tweeter-page.png"
+                  class="work__image"
+                  alt="Tweeter Social Media Platform Screenshot" />
+            </div>
+          </div>
+
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Color Palette Database Application</h3>
+
+              <p>
+                Developed a full-stack web application for creating, 
+                organizing, and visualizing custom color palettes.
+                The system allows users to create accounts, manage palettes, 
+                store individual colors, and organize palettes using searchable 
+                tags and categories.
+              </p>
+
+              <p>
+                Designed and implemented a relational SQL database with many-to-many 
+                relationships between palettes, colors, and tags.
+                Built CRUD functionality for palette and color management while 
+                focusing on efficient database modeling and user-oriented workflow 
+                design.
+              </p>
+
+              <p>
+                Developed the backend using Flask and Python to manage database 
+                interactions and application routing, while the frontend was 
+                implemented using HTML, CSS, and JavaScript to provide interactive 
+                palette visualization and management tools.
+              </p>
+
+              <p>
+                The project was completed as part of BYU’s Database Modeling Concepts 
+                course and strengthened experience in full-stack development, SQL 
+                database architecture, and scalable relational data modeling.
+              </p>
+
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>MySQL / SQL</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Database Modeling</li>
+                <li>CRUD Operations</li>
+                <li>Relational Database Design</li>
+              </ul>
+
+              <div class="work__links">
+                <!-- GitHub repo -->
+                <a href="https://github.com/olsenkat/color-palette-database" target="_blank" class="link__text">
+                  View on GitHub <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <!-- Screenshot and Video Walkthrough -->
+              <img src="./images/color-palette-main-page.png"
+                  class="work__image"
+                  alt="Color Palette Database Application Screenshot" />
+              <a href="https://youtu.be/6fD0dAEb4ts" target="_blank" class="link__text">
+                  Watch Palette Website Project Demo <span>&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+
+          <!-- Antweight Battle Bot -->
           <div class="work__box">
             <div class="work__text">
               <h3>Antweight Battle Bot Competition</h3>
