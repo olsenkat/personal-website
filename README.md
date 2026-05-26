@@ -75,7 +75,7 @@ It is deployed using GitHub Pages and updated as I complete new engineering proj
 
 - Email: wilsonkat312@gmail.com  
 - Phone: 303-396-9702  
-- Location: United States
+- Location: Highlands Ranch, United States
 
 ---
 
