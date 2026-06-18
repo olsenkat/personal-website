@@ -499,6 +499,13 @@ body:not(.user-is-tabbing) a:focus {
   object-fit: cover;
 }
 
+.work__image-box iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: none;
+}
+
 .work__image-box img {
   width: 100%;
   max-height: 700px;
